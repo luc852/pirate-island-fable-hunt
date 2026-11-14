@@ -23,7 +23,7 @@ GAME_FILES = ["main.py", "game.py", "sprites.py", "levels.py", "data.py", "ui.py
               "art.py", "audio.py", "events.py", "fx.py", "scoring.py", "treasure.py"]
 GAME_DIRS = ["assets"]
 
-APP = "pirate-island-treasure-hunt"
+APP = "pirate-island-fable-hunt"
 STAGE = ROOT / "build" / APP
 OUT = ROOT / "web"
 
@@ -54,7 +54,7 @@ def build():
         [sys.executable, "-m", "pygbag", "--build",
          "--width", "900", "--height", "600",
          "--app_name", APP,
-         "--title", "Pirate Island: Treasure Hunt",
+         "--title", "Pirate Island Fable Hunt",
          "--ume_block", "0",
          # pygbag would rather have OGG, but nothing here can encode it and
          # SDL_mixer's built-in WAV loader works in the browser.

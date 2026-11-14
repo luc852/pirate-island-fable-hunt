@@ -101,7 +101,7 @@ class Button:
 class Game:
     def __init__(self):
         pygame.init()
-        pygame.display.set_caption("Pirate Island: Treasure Hunt")
+        pygame.display.set_caption("Pirate Island Fable Hunt")
         self.window = pygame.display.set_mode((LOGICAL_W, LOGICAL_H), pygame.RESIZABLE)
         self.surface = pygame.Surface((LOGICAL_W, LOGICAL_H))
         self.clock = pygame.time.Clock()
@@ -1173,7 +1173,7 @@ class Game:
         art.skull_and_bones(s, 118, 62, 1.25)
         art.skull_and_bones(s, LOGICAL_W - 118, 62, 1.25)
         s.blit(self.title_art, self.title_art.get_rect(center=(LOGICAL_W // 2, 52)))
-        sub = art.outlined(self.font_med, "T R E A S U R E   H U N T", (255, 240, 210), (60, 24, 16), 2)
+        sub = art.outlined(self.font_med, "F A B L E   H U N T", (255, 240, 210), (60, 24, 16), 2)
         s.blit(sub, sub.get_rect(center=(LOGICAL_W // 2, 104)))
 
         self.draw_best_banner(140)

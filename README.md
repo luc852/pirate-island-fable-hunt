@@ -1,4 +1,4 @@
-# Pirate Island: Treasure Hunt
+# Pirate Island Fable Hunt
 
 The sequel to [Pirate Island Coin Hunt](https://github.com/luc852/pirate-island-coin-hunt),
 which it grew out of and which stays available as it was.
