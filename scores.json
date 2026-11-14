@@ -1,17 +1,8 @@
 {
-  "players": {
-    "Adrien": {
-      "best_score": 650
-    },
-    "Luc": {
-      "best_score": 480
-    },
-    "Marion": {
-      "best_score": 450
-    }
-  },
+  "players": {},
   "overall_best": {
-    "name": "Adrien",
-    "score": 650
-  }
+    "name": "",
+    "score": 0
+  },
+  "runs": []
 }

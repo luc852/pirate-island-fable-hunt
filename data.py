@@ -16,7 +16,7 @@ import time
 IS_WEB = sys.platform == "emscripten"
 
 SCORES_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scores.json")
-STORAGE_KEY = "pirate-island-coin-hunt/scores"
+STORAGE_KEY = "pirate-island-treasure-hunt/scores"
 
 MAX_NAME_LEN = 14
 MAX_RUNS = 10

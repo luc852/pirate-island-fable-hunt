@@ -1,4 +1,7 @@
-# Pirate Island Coin Hunt
+# Pirate Island: Treasure Hunt
+
+The sequel to [Pirate Island Coin Hunt](https://github.com/luc852/pirate-island-coin-hunt),
+which it grew out of and which stays available as it was.
 
 A small pygame arcade game: sail between islands, collect every coin, dodge the
 crabs and the tide pools, dig up the buried treasure, and get your name into the
